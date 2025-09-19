@@ -11,6 +11,6 @@ año = int(input())
 
 # Proceso
 if (año % 400 == 0) or (año % 4 == 0 and año % 100 != 0):
-    print(año,"si es un año bisiesto")
+    print("Así")
 else:
-    print(año,"no es un año bisiesto")
+    print("No")
