@@ -10,7 +10,7 @@ Eduardo Caleb Castillo Llanas 18/Sep/25
 año = int(input())
 
 # Proceso
-if (año % 4 == 0) or (año % 400 == 0 and año % 100 != 0):
+if (año % 400 == 0) or (año % 4 == 0 and año % 100 != 0):
     print(año,"si es un año bisiesto")
 else:
     print(año,"no es un año bisiesto")
